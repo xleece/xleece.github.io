@@ -40,7 +40,7 @@ article, header, nav, section {
 .header {color:#888888;}
 
 
-.title, .infoTop a, .banners a, .header, h2, .title, .pageSubtitle, h1 {
+.title, .banners a, .header, h2, .title, .pageSubtitle, h1 {
 	font-size:14px;
 	text-transform:uppercase;
 	letter-spacing:2px;
@@ -136,21 +136,20 @@ p {
 	
 .proj {
 	width:300px;
-	height:360px;
+	height:300px;
 	float:left;
-	padding:0 5px 10px 0px;
+	padding:0 20px 20px 0px;
 }
 
 .proj img {
-	width:280px;
-	height:280px;
-	max-width:90%;
-	max-height:90%;
+	max-width:100%;
+	max-height:100%;
 }
 
 .proj p {
    padding: 0;
    margin: 0;
+	color: #A7A7A7;
    font-size: 11px;
    font-family: Lato;
  	font-style: italic;

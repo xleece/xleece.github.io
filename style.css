@@ -1,5 +1,8 @@
 body{
-	font-family: "freight-text-pro",Georgia,serif;
+/*	font-family: "freight-text-pro",Georgia,serif; */
+	
+   font-family: "mislab-std",serif;
+	font-weight:100;
 	font-size: 9pt;
 	line-height: 1.8em;
 	color: #999999;
@@ -131,7 +134,8 @@ a {
 }
 
 p {
-	font-family: "freight-text-pro",Georgia,serif;
+   font-family: "mislab-std",serif;
+	
 	font-size: 12pt;
 	line-height: 1.8em;
 	color: #444444;

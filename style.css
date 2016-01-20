@@ -1,0 +1,291 @@
+body{
+	font-family: "freight-text-pro",Georgia,serif;
+	font-size: 12pt;
+	line-height: 1.8em;
+	color: #2d2d2d;
+	margin:0;
+	margin:0 0 140px 0;
+	-webkit-transition: .7s;
+	transition: .7s;
+}
+
+img, video, object{ max-width: 100% }
+
+.half {width:49.5%; float:left;}
+.left {padding-right:1%;}
+
+.letters img {padding-bottom:1%;}
+
+article, header, nav, section {
+    display: block;
+}
+
+/* Homepage */
+
+.info {
+    font-size: 11pt;
+    line-height: 1.6em;
+	margin-top: 0px;
+}
+
+.infoTop {
+	float:left; 
+	width: 300px; 
+	text-align: left; 
+	padding-right:30px;
+}
+
+.infoTop img, .links img{
+    height: 12px;
+    padding: 0 5px;
+}
+
+.header {color:#888888;}
+
+
+.title, .infoTop a, .banners a, .header, h2, .title, .pageSubtitle, h1 {
+	font-size:14px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+    font-family: "proxima-nova",sans-serif;
+}
+
+.sectionHeader {
+	font-family: "freight-text-pro",Georgia,serif;
+	font-size: 16pt;
+	line-height: 1.8em;
+	font-style: italic;
+	color: #888;
+	padding-top: 30px;
+	padding-bottom: 0;
+}
+
+.title {
+	font-size: 23px;
+	  letter-spacing: 4px;
+	  margin: 0 0 -3px 0;
+	  padding-top: 0;
+	  color: #444444 !important;
+}
+
+.subtitle {
+	font-size:15px;
+	margin-bottom: 40px;
+	font-family: "freight-text-pro",Georgia,serif;
+	color:#767676;
+	text-transform: none;
+	letter-spacing: 0px;
+	font-style:italic;
+}
+
+.pageTitle {
+	font-size: 32px;
+	margin-top: 110px;
+	margin-bottom: 0px;
+	color: #444444 !important;
+	font-family: "freight-text-pro",Georgia,serif;
+	text-transform:none;
+	font-style:italic;
+}
+
+
+h1 {
+	font-size: 15px;
+	color: #888888;
+	font-weight: normal;
+	letter-spacing: 3px;
+	padding-top: 55px;
+	margin-bottom: -25px;
+	padding-bottom: 0;
+}
+
+.pageSubtitle {
+	color:#888888 !important;
+}
+
+h2, .pageSubtitle {
+	font-weight:normal;
+	margin: 0;
+}
+
+h2 {
+	padding: 0px 0 35px 0 !important;
+	margin-top:-8px !important;
+}
+
+
+
+a {
+	color:#fc6f44 !important;
+}
+
+.banners a, h2 {
+	margin-bottom:50px;
+}
+
+.banners {
+}
+
+p {
+	font-family: "freight-text-pro",Georgia,serif;
+	font-size: 12pt;
+	line-height: 1.8em;
+	color: #444444;
+}
+
+.div {
+	margin:60px 0 50px 0;
+}
+	
+	
+/* footer */
+	
+.footer {padding: 0 0px 40px 0;}
+.foot {padding:0px 0;}
+
+.foot .padding {
+	padding:30px 0 0 0  !important;
+}
+
+.footer img {
+	  padding: 10px;
+}
+
+.foot p, .text {
+	width:600px;
+	max-width:90%;
+	
+}
+
+.text {
+	margin: 50px auto;
+}
+
+.foot p {
+	margin: 30px auto;
+}
+
+.foot .left {
+	float:left;
+	width:440px;
+	padding-right:15px;
+}
+
+.foot img {padding:0 10px;}
+
+.foot .right {
+	float:left;
+	width:440px;
+	padding:30px 0px;
+}
+
+.foot .right img {
+	padding:20px 20px;
+}
+
+.back {
+	font-style:italic;
+}
+
+
+/* About
+================================ */
+
+.list p {
+	text-align: left;
+	  margin: 1px;
+}
+
+
+/* Layout 
+================================ */
+
+.wrap{
+  margin: 0px auto;
+  overflow: hidden;
+  width: 960px;
+max-width:80%;
+}
+
+.primary-header{
+  float: right;
+  width: 30%
+}
+
+.content{
+	text-align:center;
+  max-width: 100%;
+}
+
+img {
+	max-width:100%;
+}
+
+@media only screen and (max-width: 1085px){
+  body{
+    font-size: 16px;
+  }
+
+  .wrap{
+    margin: 15px auto;
+  }
+
+  .primary-header,  .content{
+    float: none;
+    width: auto;
+  }
+
+}
+
+/* Text 
+================================ */
+
+a{
+  color: #0091e5;
+  text-decoration: none;
+}
+
+/* Header */
+
+.primary-header{
+  font-size: 0.85em;
+}
+
+.site-title{ font-size: 1.2em; }
+
+.page-menu {
+  margin: 0 0 30px;
+  padding: 0;
+}
+
+.page-menu li{
+  border-top: 1px dotted #d4d7d9;
+  margin: 0.5em 0 0;
+  padding: 0.5em 0 0;
+  list-style: none;
+}
+
+.is-current-page{
+  color: #999;
+  pointer-events: none;
+}
+
+/* Content */
+
+.content-title{
+  font-size: 2.4em;
+  line-height: 1.3;
+  margin: 0 0 0.5em;
+}
+
+.post-preview{
+  border-top: 1px dotted #d4d7d9;
+  margin: 1em 0 0;
+  padding: 1em 0 0;
+}
+
+.subpage-menu a{
+  display: inline-block;
+  margin-right: 15px;
+}
+/* I got 99 problems, but this last line ain't one */

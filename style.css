@@ -105,6 +105,14 @@ h1 {
    font-weight: 300;
 }
 
+.about h1 {
+	padding-top:20px;
+	margin:0;
+	padding-bottom:0;
+   font-weight: 600;
+	
+}
+
 .pageSubtitle {
 	color:#888888 !important;
 }
@@ -149,7 +157,7 @@ font-family: "freight-text-pro",Georgia,serif;
 	
 	font-size: 12pt;
 	line-height: 1.8em;
-	color: #444444;
+color: #757070;
 }
 
 .pages img {

@@ -97,13 +97,12 @@ article, header, nav, section {
 
 
 h1 {
-	font-size: 15px;
+	font-size: 11px;
 	color: #888888;
 	font-weight: normal;
-	letter-spacing: 3px;
-	padding-top: 55px;
-	margin-bottom: -25px;
-	padding-bottom: 0;
+	letter-spacing: 1px;
+    margin: 0px;
+	 margin:16px 0;
 }
 
 .pageSubtitle {
@@ -153,9 +152,18 @@ font-family: "freight-text-pro",Georgia,serif;
 	color: #444444;
 }
 
-.div {
-	margin:60px 0 50px 0;
+.pages img {
+	width:650px;
+	height:auto;
 }
+
+.div {
+   padding: 60px 0;
+   height: 2px;
+   opacity: .2;
+   clear: both;
+   width: 700px;
+	}
 	
 .proj {
 	width:300px;
@@ -263,10 +271,10 @@ max-width:80%;
 
 .alice {
    padding-left: 22px;
-   font-size: 30px;
+   font-size: 36px;
    color: #B4B2B7;
    font-weight: 100;
-   margin: 6px 0 -4px 0px;
+   margin: 6px 0 -10px 0px;
    font-family: "freight-big-pro",sans-serif;
 	
 }

@@ -124,10 +124,14 @@ h2 {
 
 a {
 	color:#777C9E;
-	border-bottom: 1px solid #E4E6EC;
-	    padding-bottom: 2px;
+
 	 	-webkit-transition: .1s;
 	 	transition: .1s;
+}
+
+p a {
+	border-bottom: 1px solid #E4E6EC;
+	    padding-bottom: 2px;
 }
 
 a:hover {
@@ -257,10 +261,23 @@ max-width:80%;
   width: 30%
 }
 
+.alice {
+	padding-left: 22px;
+	    font-size: 21px;
+	    font-style: italic;
+	    color: #B4B2B7;
+	    font-weight: 100;
+	    margin: 20px 0 -4px 0;
+}
+
+.navi a {
+	color:#9C9FB3;
+}
+
 .navi {
 	color: #999999;
 	padding-left:60px;
-   font-size: 12px;
+   font-size: 11px;
    font-style: italic;
    padding: 0 20px;
    margin: 5px 0px;

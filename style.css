@@ -109,7 +109,8 @@ h1 {
 	padding-top:20px;
 	margin:0;
 	padding-bottom:0;
-   font-weight: 600;
+   font-weight: 400;
+	color:#2F2E2E;;
 	
 }
 
@@ -158,6 +159,16 @@ font-family: "freight-text-pro",Georgia,serif;
 	font-size: 12pt;
 	line-height: 1.8em;
 color: #757070;
+}
+
+.about p {
+   font-family: "freight-text-pro",Georgia,serif;
+   font-size: 10.5pt;
+   line-height: 1.6em;
+   color: #757070;
+   font-weight: 400;
+   padding: 0;
+   margin: 4px 0;
 }
 
 .pages img {

@@ -262,11 +262,11 @@ max-width:80%;
 }
 
 .alice {
-	padding-left: 22px;
-	    font-size: 21px;
-	    color: #B4B2B7;
-	    font-weight: 100;
-	    margin: 20px 0 -4px 0;
+   padding-left: 22px;
+   font-size: 30px;
+   color: #B4B2B7;
+   font-weight: 100;
+   margin: 6px 0 -4px 0px;
 }
 
 .navi a {
@@ -280,7 +280,7 @@ max-width:80%;
    font-style: italic;
    padding: 0 20px;
    margin: 5px 0px;
-	letter-spacing:.5px;
+    font-weight: 400;
 }
 .content{
 	text-align:center;

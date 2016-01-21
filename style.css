@@ -78,10 +78,11 @@ article, header, nav, section {
 	font-size:15px;
 	margin-bottom: 40px;
 	font-family: "freight-text-pro",Georgia,serif;
-	color:#767676;
-	text-transform: none;
-	letter-spacing: 0px;
-	font-style:italic;
+   color: #797676;
+   text-transform: none;
+   letter-spacing: 0px;
+   font-style: italic;
+   font-weight: 400;
 }
 
 .pageTitle {
@@ -100,8 +101,8 @@ h1 {
 	color: #888888;
 	font-weight: normal;
 	letter-spacing: 1px;
-    margin: 0px;
-	 margin:16px 0;
+   margin: 13px 0 0 0px;
+   font-weight: 300;
 }
 
 .pageSubtitle {
@@ -179,13 +180,12 @@ font-family: "freight-text-pro",Georgia,serif;
 .proj p {
    padding: 0;
    margin: 0;
-	color: #A7A7A7;
-   font-size: 11px;
-   font-family: Lato;
- 	font-style: italic;
-   font-weight: 100;
+   color: #B3B3B3;
+   font-size: 13px;
+   font-style: italic;
+   font-weight: 500;
    text-transform: lowercase;
-	    margin-top: -5px;
+   margin-top: -3px;
 }
 	
 /* footer */

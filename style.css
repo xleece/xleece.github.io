@@ -48,6 +48,13 @@ article, header, nav, section {
 
 .header {color:#888888;}
 
+.alice {
+	float: left;
+	    width: 210px;
+	    height: auto;
+	    padding: 10px 0 20px 30px;
+	}
+
 
 .title, .banners a, .header, h2, .title, .pageSubtitle, h1 {
 	font-size:14px;

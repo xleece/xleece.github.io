@@ -1,0 +1,97 @@
+<head> 
+	
+	<style type="text/css" media="screen">
+
+</style>
+	<script type="text/javascript" src="/js/jquery.js"></script> 
+	<script type="text/javascript" src="/js/jquery.stellar.min.js"></script> 
+
+
+  
+  
+  <style>
+
+  img {
+    position: fixed;
+	 left:0;
+  }
+
+  </style>
+  
+  <script>
+  $.fn.moveIt = function(){
+    var $window = $(window);
+    var instances = [];
+  
+    $(this).each(function(){
+      instances.push(new moveItItem($(this)));
+    });
+  
+    window.onscroll = function(){
+      var scrollTop = $window.scrollTop();
+      instances.forEach(function(inst){
+        inst.update(scrollTop);
+      });
+    }
+  }
+
+  var moveItItem = function(el){
+    this.el = $(el);
+    this.speed = parseInt(this.el.attr('data-scroll-speed'));
+  };
+
+  moveItItem.prototype.update = function(scrollTop){
+    var pos = scrollTop / this.speed;
+    this.el.css('transform', 'translateY(' + -pos + 'px)');
+  };
+
+  $(function(){
+    $('[data-scroll-speed]').moveIt();
+  });
+  </script>
+  
+  
+  
+  <style>
+  .content {
+    height: 3000px;
+  }
+
+  .wrapper {
+    position: fixed;
+  }
+
+
+
+  }</style>
+  
+</head>
+
+<body>
+	
+<div class="content">
+  <div class="wrapper">
+
+
+	<img class="box" src="/img/header/1.png" style="z-index:13" data-scroll-speed="3">
+	
+	<img class="box" src="/img/header/2.png" style="z-index:12" data-scroll-speed="2">
+	<img class="box" src="/img/header/3.png" style="z-index:11" data-scroll-speed="4">
+	<img class="box" src="/img/header/4.png" style="z-index:10" data-scroll-speed="5">
+	<img class="box" src="/img/header/5.png" style="z-index:9" data-scroll-speed="2">
+	<img class="box" src="/img/header/6.png" style="z-index:8" data-scroll-speed="1">
+	<img class="box" src="/img/header/7.png" style="z-index:7" data-scroll-speed="3">
+	<img class="box" src="/img/header/8.png" style="z-index:6" data-scroll-speed="2">
+	<img class="box" src="/img/header/9.png" style="z-index:5" data-scroll-speed="4">
+	<img class="box" src="/img/header/10.png" style="z-index:4" data-scroll-speed="3">
+	<img class="box" src="/img/header/11.png" style="z-index:3" data-scroll-speed="2">
+	<img class="box" src="/img/header/12.png" style="z-index:2" data-scroll-speed="2">
+	<img class="box" src="/img/header/13.png" style="z-index:1" data-scroll-speed="1">
+  </div>
+</div>
+
+
+<div style="height:1000000px;"></div>
+<br style="clear:both;">
+<p>hi</p>
+</body>

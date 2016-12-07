@@ -7,26 +7,34 @@
   <style>
 
   .box {
+     left: 15%;
     position: fixed;
+	 height:auto
 	 width:900px;
   }
+  
+  img .box {      mix-blend-mode: multiply;
+
+}
   
   .box-wrapper{
 	  position:relative;
 	  display:block;
 	  margin:0 auto;
-	  height:1850px;
-	  margin-top: -130px;
+	  height:580px;
+	  margin-top:-100px;
 	      z-index: -10;
   }
+  
+  .multiply {mix-blend-mode: multiply;}
 
   </style>
 
 <script>
 		$(function(){
 			$.stellar({
-				horizontalScrolling: false,
-				verticalOffset: 40
+    hideDistantElements: false
+				
 			});
 		});
 		</script>
@@ -36,25 +44,27 @@
 
 
 	  <div class="wrap" style="text-align:center;">
-		  <img style="width:900px; text-align:center; margin: -120px 40px -10px auto" src="/img/header01/full.png">
-		  
-		  <!--
+		  <!--  <img style="width:900px; text-align:center; margin: -120px 40px -10px auto" src="/img/header01/full.png">
+		  -->
+		
 		  
   <div class="box-wrapper">
 
+	<img class="box multiply" src="/img/header01/0.png" style="z-index:12" data-stellar-ratio="1.5">
+	<img class="box multiply" src="/img/header01/0B.png" style="z-index:12" data-stellar-ratio="1.2">
 
-	<img class="box" src="/img/header01/1.png" style="z-index:13" data-scroll-speed="2">
+	<img class="box multiply" src="/img/header01/1.png" style="z-index:13" data-stellar-ratio="1">
+	<img class="box multiply" src="/img/header01/2.png" style="z-index:12" data-stellar-ratio="1.1">
+	<img class="box multiply" src="/img/header01/3.png" style="z-index:11" data-stellar-ratio="1">
+	<img class="box " src="/img/header01/4.png" style="z-index:10" data-stellar-ratio="1">
+	<img class="box multiply" src="/img/header01/5.png" style="z-index:9" data-stellar-ratio="1.1">
+	<img class="box " src="/img/header01/6.png" style="z-index:8" data-stellar-ratio="1.1">
+	<img class="box multiply" src="/img/header01/9.png" style="z-index:5" data-stellar-ratio="1">
 	
-	<img class="box" src="/img/header01/2.png" style="z-index:12" data-scroll-speed="1">
-	<img class="box" src="/img/header01/3.png" style="z-index:11" data-scroll-speed="1">
-	<img class="box" src="/img/header01/4.png" style="z-index:10" data-scroll-speed="2">
-	<img class="box" src="/img/header01/5.png" style="z-index:9" data-scroll-speed="2">
-	<img class="box" src="/img/header01/6.png" style="z-index:8" data-scroll-speed="2">
-<img class="box" src="/img/header01/7.png" style="z-index:7" data-scroll-speed="2">
-	<img class="box" src="/img/header01/8.png" style="z-index:6" data-scroll-speed="2">
-	<img class="box" src="/img/header01/9.png" style="z-index:5" data-scroll-speed="1">
+<img class="box" src="/img/header01/7.png" style="z-index:7" data-stellar-ratio="1">
+	<img class="box" src="/img/header01/8.png" style="z-index:6" data-stellar-ratio="1">
 	
-	<br style="clear:both;" />-->
+	<br style="clear:both;" />
 
 </div>
 

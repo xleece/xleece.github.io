@@ -1,0 +1,89 @@
+<head> 
+	
+	<style type="text/css" media="screen">
+
+</style>
+	<script type="text/javascript" src="/js/jquery.js"></script> 
+	<script type="text/javascript" src="/js/jquery.stellar.min.js"></script> 
+
+
+  
+  
+  <style>
+
+  .box {
+    position: fixed;
+	 width:900px;
+  }
+  
+  .box-wrapper{
+	  position:relative;
+	  display:block;
+	  margin:0 auto;
+	  height:850px;
+	  margin-top: -130px;
+	      z-index: -10;
+  }
+
+  </style>
+  
+  <script>
+  $.fn.moveIt = function(){
+    var $window = $(window);
+    var instances = [];
+  
+    $(this).each(function(){
+      instances.push(new moveItItem($(this)));
+    });
+  
+    window.onscroll = function(){
+      var scrollTop = $window.scrollTop();
+      instances.forEach(function(inst){
+        inst.update(scrollTop);
+      });
+    }
+  }
+
+  var moveItItem = function(el){
+    this.el = $(el);
+    this.speed = parseInt(this.el.attr('data-scroll-speed'));
+  };
+
+  moveItItem.prototype.update = function(scrollTop){
+    var pos = scrollTop / this.speed;
+    this.el.css('transform', 'translateY(' + -pos + 'px)');
+  };
+
+  $(function(){
+    $('[data-scroll-speed]').moveIt();
+  });
+  </script>
+  
+  
+
+</head>
+
+
+	  <div class="wrap">
+  <div class="box-wrapper">
+
+
+	<img class="box" src="/img/header01/1.png" style="z-index:13" data-scroll-speed="2">
+	
+	<img class="box" src="/img/header01/2.png" style="z-index:12" data-scroll-speed="2">
+	<img class="box" src="/img/header01/3.png" style="z-index:11" data-scroll-speed="2">
+	<img class="box" src="/img/header01/4.png" style="z-index:10" data-scroll-speed="1">
+	<img class="box" src="/img/header01/5.png" style="z-index:9" data-scroll-speed="2">
+	<img class="box" src="/img/header01/6.png" style="z-index:8" data-scroll-speed="1">
+<img class="box" src="/img/header01/7.png" style="z-index:7" data-scroll-speed="3">
+	<img class="box" src="/img/header01/8.png" style="z-index:6" data-scroll-speed="2">
+	<img class="box" src="/img/header01/9.png" style="z-index:5" data-scroll-speed="4">
+	
+	<br style="clear:both;" />
+
+</div><br style="clear:both;" />
+
+</div>
+
+
+<br style="clear:both;" />

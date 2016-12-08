@@ -145,13 +145,18 @@ a {
 
 	 	-webkit-transition: .1s;
 	 	transition: .1s;
+		cursor: pointer; cursor: hand;
 }
 
 p a {
-	border-bottom: 1px solid #E4E6EC;
 	    padding-bottom: 1px;
 }
 
+.active, .pages a{
+	border-bottom: 1px solid #E4E6EC;
+
+	
+}
 a:hover {
 	color:#32354C;
 }

@@ -298,13 +298,28 @@ max-width:80%;
 }
 
 .alice {
-   padding-left: 10px;
+   padding-left: 20px;
    font-size: 36px;
    color: #B4B2B7;
    font-weight: 100;
-   margin: 6px 0 -10px 0px;
+   margin: 28px 0 -10px 0px;
    font-family: "freight-big-pro",sans-serif;
+	float:left; 
+	margin-left:128px;
+	padding-top:47px;
+	margin-bottom:-10px;
 	
+	
+}
+
+.abstract-left {
+   margin-top: 10px;
+   background-image: url(/img/header/blob1.png);
+   background-repeat: no-repeat;
+   background-size: 181px 194px;
+   background-position: 20px 0px;
+   height: 180px;
+   margin-left: -30px;
 }
 
 .navi a {
